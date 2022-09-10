@@ -1,4 +1,12 @@
 #include<stdio.h>
+
+/**
+
+ * main - the containing func
+ * Return: 0 if no error
+ *
+ */
+
 int main()  {
 	int intType;
 	float floatType;
