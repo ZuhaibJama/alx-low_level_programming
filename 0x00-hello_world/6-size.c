@@ -1,24 +1,23 @@
 #include<stdio.h>
 
 /**
-
  * main - the containing func
  * Return: 0 if no error
  *
  */
 
-int main()  {
-	int intType;
-	float floatType;
-	double doubleType;
-	char charType;
+int main(void)
+{
+	printf("Size of a char: %d byte(s)\n", sizeof(char));
 
-	// sizeof evaluates the size of a variable
-	printf("Size of int: %zu bytes\n", sizeof(intType));
-	printf("Size of float: %zu bytes\n", sizeof(floatType));
-	printf("Size of double: %zu bytes\n", sizeof(doubleType));
-	printf("Size of char: %zu byte\n", sizeof(charType));
+        printf("Size of an int: %d byte(s)\n", sizeof(int));
 
-	return 0;
+        printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+
+        printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+
+        printf("Size of a float: %d byte(s)\n", sizeof(float));
+
+        return (0);
 
 }
