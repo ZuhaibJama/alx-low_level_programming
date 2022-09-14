@@ -5,10 +5,11 @@
  * add -prints add two numbers
  * @i: print int i
  * @k: print int k
- * Return: Always 0.
+ * Return: The result of the addition
  */
 
-int add(int i, int k)
+int add(int num1, int num2)
 
 {
-	return (i + k);
+	return (num1 + num2);
+}
