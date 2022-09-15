@@ -2,9 +2,9 @@ include "main.h"
 
 /**
  * mul - multiply two numbers
- * @a: first parameter
- * @b: second parameter
- * Return: 0 if sucessful
+ *@a: first number
+ *@b: second number
+ * Return: returns value
  */
 
 int mul(int a, int b)
